@@ -30,8 +30,5 @@ namespace cpptesting
         g_Application = nullptr;
     }
 
-    Application::~Application()
-    {
-        Application::Shutdown();
-    }
+    Application::~Application() {}
 }
